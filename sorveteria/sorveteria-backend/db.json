@@ -1,0 +1,67 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Sorvete Italiano",
+      "descricao": "Sorvete sabor chocolate e morango na casquinha",
+      "preco": 3.5,
+      "categoria_id": 1
+    },
+    {
+      "id": 2,
+      "nome": "Milk Shake",
+      "descricao": "Morango, Chocolate, Baunilha, Paçoca e Açai",
+      "preco": 10,
+      "categoria_id": 1
+    },
+    {
+      "id": 3,
+      "nome": "Açai",
+      "descricao": "Leite em pó, morango, Kiwi, banana e leite condensado.",
+      "preco": 15,
+      "categoria_id": 3
+    },
+    {
+      "id": 4,
+      "nome": "Cascão",
+      "descricao": "Limão, Leite-condensado, Chocolate, Céu azul, Amendoim, Flocos e Cupuaçu.",
+      "preco": 5.5,
+      "categoria_id": 1
+    },
+    {
+      "id": 5,
+      "nome": "Coca cola 350ml",
+      "descricao": "",
+      "preco": 5.5,
+      "categoria_id": 2
+    },
+    {
+      "id": 6,
+      "nome": "Coca cola 600ml",
+      "descricao": "",
+      "preco": 7.5,
+      "categoria_id": 2
+    },
+    {
+      "nome": "Sorvete na taça",
+      "descricao": "Limão, Leite-condensado, Chocolate, Céu azul, Amendoim, Flocos e Cupuaçu.",
+      "preco": 9.5,
+      "categoria_id": 1,
+      "id": 7
+    }
+  ],
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "Sorvetes"
+    },
+    {
+      "id": 2,
+      "nome": "Refrigerantes"
+    },
+    {
+      "id": 3,
+      "nome": "Açais"
+    }
+  ]
+}
