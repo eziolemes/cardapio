@@ -22,7 +22,8 @@ export const useProducts = ({ productId }: IRequestProps) => {
 
     async function loadProducts() {
       const apiClient = setupAPIClient();
-      const response = await apiClient.get(`http://localhost:9090/produtos/${(!productId ? '' : productId)}`);
+      const baseURL = apiClient.defaults.baseURL;
+      const response = await apiClient.get(`${baseURL}/produtos/${(!productId ? '' : productId)}`);
 
       setProducts(response.data);
       setLoading(false);
